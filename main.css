@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#container {
+  display: inline-grid;
+  border: 5px solid black;
+  border-radius: 5px;
+  min-width: 534px;
+  min-height: 534px;
+  width: 80vh;
+  height: 80vh;
+}
+
+.block {
+  border: 1px solid hsla(0, 0%, 25%, 0.1);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
